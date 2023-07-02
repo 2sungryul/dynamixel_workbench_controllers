@@ -83,7 +83,7 @@ DynamixelController::DynamixelController()
   
   // init
   //std::string port_name = "/dev/ttyUSBMotor";
-  std::string port_name = "/dev/ttyUSB0";
+  std::string port_name = "/dev/ttyUSBMotor";
   uint32_t baud_rate = 2000000;
 
   bool result = false;
